@@ -434,7 +434,7 @@ html {
 /* スキルの部分 */
 .skill-section {
     background-color: #E6E9EC;
-    padding: 80px 0 100px 0;
+    padding: 50px 0 100px 0;
     width: 100%;
     overflow: hidden;
 }
@@ -501,7 +501,7 @@ html {
 
 /* 制作実績 */
 .works-section{
-    padding-top: 80px;
+    padding-top: 50px;
 }
 
 /* タグの色分け（カスタマイズ） */
@@ -585,11 +585,21 @@ html {
     clip-path: ellipse(75% 100% at 50% 100%);
     margin-top: 250px;
 }
+
+.footer2 {
+    background-color: #708CA3; 
+    color: #ffffff;
+    padding: 30px 20px 30px;
+    text-align: center;
+    
+}
+
+
   
 .footer-msg { 
     font-size: 28px;
     font-weight: 300;
-    margin-top: 80px;
+    margin-top: 90px;
     margin-bottom: 30px; 
 }
 
@@ -601,7 +611,7 @@ html {
 .footer-desc { 
     font-size: 16px;
     font-weight: 300;
-    margin-bottom: 20px; 
+    margin-bottom: 10px; 
 }
   
 /* メールのボタン部分 */
@@ -626,7 +636,7 @@ html {
   
 .copyright {
     font-family: Roboto;
-    margin-top: 60px;
+    margin-top: 100px;
     font-size: 10px;
     opacity: 0.8;
     margin-bottom: -10px;
@@ -636,7 +646,7 @@ html {
 /* about meページ */
 .about-header-area {
     background-color: #ffffff;
-    padding: 40px 0 20px;
+    padding: 30px 0 15px;
 }
 
 .about-profile-area {
@@ -697,7 +707,7 @@ html {
 
 
 .skill-date-area{
-    margin-top: 80px ;
+    margin-top: 50px ;
     margin-bottom: 100px;
 }
 
@@ -726,7 +736,8 @@ html {
 /* 今までのお話 */
 .story-area {
     background-color: #E6E9EC;
-    padding: 80px 0;
+    padding: 50px 0;
+    
 }
 
 
@@ -813,7 +824,7 @@ html {
 
 /* わたしの興味・関心 */
 .interest-area {
-    padding: 80px 0;
+    padding: 50px 0;
 }
 
 .interest-container {
@@ -854,6 +865,45 @@ html {
     line-height: 1.8;
     font-size: 14px;
     padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+
+/* これからのこと */
+.future-vision-section {
+    padding: 50px 20px 100px;
+    background-color: #E6E9EC; /* 背景を少し明るくして区切りを強調 */
+}
+
+.vision-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 1150px;
+    margin: 20px auto 0 auto;
+}
+
+.vision-card {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+.vision-label {
+    display: inline-block;
+    background-color: #AFC6DA; /* 他のラベルと色を合わせる */
+    color: #ffffff;
+    padding: 8px 25px;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.vision-card p {
+    font-size: 16px;
+    line-height: 2;
+    color: #5E5F65;
     margin-bottom: 20px;
 }
 
@@ -1018,6 +1068,13 @@ html {
     transform: translateY(-2px); /* ほんの少し上に浮かす */
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
+
+.space-container {
+    height: 60px; /* 🔴 欲しい空白の高さ（サイズ）に変えてください */
+    width: 100%;
+}
+
+
 
   
 
@@ -1221,6 +1278,20 @@ html {
         box-sizing: border-box;
         font-size: 15px;
         padding: 14px 20px;
+    }
+
+    .vision-card {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .vision-label {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    
+    .vision-card p {
+        text-align: left;
     }
     
 
