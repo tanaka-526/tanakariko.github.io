@@ -363,7 +363,7 @@ html {
 .section-sub2 {
     font-size: 16px;
     color: #939393;
-    margin: 0 0 10px 10px;
+    margin: 0 0 5px 10px;
     letter-spacing: 0.2em;
 }
 
@@ -424,6 +424,10 @@ html {
     line-height: 2;
     position: relative;
     z-index: 2;
+}
+
+.last-pass {
+    margin-top: 60px;
 }
 
 .story-content p {
@@ -589,9 +593,8 @@ html {
 .footer2 {
     background-color: #708CA3; 
     color: #ffffff;
-    padding: 30px 20px 30px;
+    padding: 20px 20px 30px;
     text-align: center;
-    
 }
 
 
@@ -609,7 +612,7 @@ html {
 }
 
 .footer-desc { 
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 300;
     margin-bottom: 10px; 
 }
@@ -649,10 +652,16 @@ html {
     padding: 30px 0 15px;
 }
 
+.sp-only {
+    display: none;
+}
+
 .about-profile-area {
     background-color: #C7D8E6;
     padding: 100px 0 ;
 }
+
+
 
 /* 左右に分ける箱 */
 .profile-box {
@@ -892,7 +901,7 @@ html {
 
 .vision-label {
     display: inline-block;
-    background-color: #AFC6DA; /* 他のラベルと色を合わせる */
+    background-color: #AFC6DA;
     color: #ffffff;
     padding: 8px 25px;
     border-radius: 20px;
@@ -912,7 +921,7 @@ html {
 /*  コンテンツエリア：背景グレー */
 .works-detail-content {
     background-color: #E6E9EC;
-    padding: 60px 0;
+    padding: 40px 0;
 }
 
 .detail-wrapper {
@@ -1084,7 +1093,7 @@ html {
     /* 見出しエリア */
     .section-sub,
     .section-sub2 {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .title-wrapper,
@@ -1217,20 +1226,47 @@ html {
         clip-path: ellipse(150% 100% at 50% 100%); 
     }
 
+    .footer2 {
+        padding: 30px 40px 20px;
+        text-align: center;
+    }
+
     .footer-msg { 
         font-size: 18px;
         margin-top: 35px; 
     }
 
     .footer-title { 
-        font-size: 35px;
+        font-size: 36px;
+        margin-bottom: 5px;
     }
 
     .mail-link {
-        padding: 15px 30px;
-        width: 90%;
+        padding: 10px 30px;
+        width: 80%;
         font-size: 16px;
+        margin-bottom: -10px;
     }
+
+    .footer-desc { 
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .copyright {
+        margin-top: 70px;
+    }
+
+    .story-area {
+        padding: 30px 0;
+    
+    }
+
+
+    .works-detail-content {
+        padding: 30px 0;
+    }
+
 
     .works-grid {
         grid-template-columns: 1fr; 
@@ -1295,6 +1331,22 @@ html {
     }
     
 
+    .sp-only {
+        display: block;
+    }
+
+    /* フリガナの余白を微調整 */
+    .name-hiragana {
+        display: block;
+        margin-top: 5px; /* 必要に応じて調整してください */
+    }
+    
+    /* h3が横並びになっていたのを解除 */
+    .profile-text h3 {
+        display: block;
+        text-align: center; /* 中央寄せにしたい場合 */
+    }
+
 }
 
 
@@ -1339,4 +1391,3 @@ html {
 
 
 }
-
