@@ -430,6 +430,10 @@ html {
     margin-top: 60px;
 }
 
+.highlight {
+    color: #c6677a; 
+  }
+
 .story-content p {
     margin-bottom: 25px;
 }
