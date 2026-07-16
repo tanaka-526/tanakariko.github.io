@@ -466,13 +466,17 @@ html {
 }
 
 .card-title {
-    background-color: #A0B8D0;
-    color: white;
-    padding: 8px 30px;
-    border-radius: 50px;
-    font-size: 16px;
+    background-color: #A0B8D0; /* 画像に近い水色 */
+    color: #ffffff;
+    padding: 10px 0;           /* 上下の余白 */
+    border-radius: 30px;       /* 楕円形にする */
+    font-size: 20px;           /* 文字サイズを大きく */
+    font-weight: 500;
+    text-align: center;
+    width: 100%;               /* カードの幅いっぱいに広げる */
+    display: block;            /* ブロック要素にする */
     margin-bottom: 20px;
-    display: inline-block;
+    box-sizing: border-box;
 }
 
 .icon-area {
