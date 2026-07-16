@@ -471,7 +471,7 @@ html {
     padding: 10px 0;           /* 上下の余白 */
     border-radius: 30px;       /* 楕円形にする */
     font-size: 20px;           /* 文字サイズを大きく */
-    font-weight: 500;
+    font-weight: normal;
     text-align: center;
     width: 100%;               /* カードの幅いっぱいに広げる */
     display: block;            /* ブロック要素にする */
