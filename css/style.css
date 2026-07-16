@@ -45,7 +45,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* サイズ計算を楽にするコード */
+    box-sizing: border-box; 
 }
 
 body {
@@ -201,14 +201,14 @@ html {
 }
 
 
-/* --- ハンバーガーメニューのボタン --- */
+/*  ハンバーガーメニューのボタン  */
 .menu-btn {
     position: static;
     top: 50px;
     right: 50px;
     width: 80px;
     height: 80px;
-    background: #7094B3; /* ボタンの背景色 */
+    background: #7094B3; 
     cursor: pointer;
     z-index: 10000;
     display: flex;
@@ -260,16 +260,16 @@ html {
     font-size: 24px;
     text-decoration: none;
     font-weight: bold;
-    background-color: #ffffff;      /* 中を白にする */
-    border: 2px;     /* 枠線の太さと色（お好みで調整） */
-    border-radius: 2px;            /* 角を丸くする */
-    margin-bottom: 20px;           /* 枠と枠の間の隙間 */
-    text-align: center;            /* 文字を枠の中央に */
+    background-color: #ffffff; 
+    border: 2px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    text-align: center; 
     transition: 0.3s;
 }
 
 .nav-menu ul li a:hover {
-    background-color: #f0f4f8;      /* マウスを乗せると色が変わる */
+    background-color: #f0f4f8; 
 
 }
 .menu-btn:hover{
@@ -466,15 +466,15 @@ html {
 }
 
 .card-title {
-    background-color: #A0B8D0; /* 画像に近い水色 */
+    background-color: #A0B8D0;
     color: #ffffff;
-    padding: 10px 0;           /* 上下の余白 */
-    border-radius: 30px;       /* 楕円形にする */
-    font-size: 20px;           /* 文字サイズを大きく */
+    padding: 10px 0;
+    border-radius: 30px; 
+    font-size: 20px;
     font-weight: normal;
     text-align: center;
-    width: 100%;               /* カードの幅いっぱいに広げる */
-    display: block;            /* ブロック要素にする */
+    width: 100%;  
+    display: block;  
     margin-bottom: 20px;
     box-sizing: border-box;
 }
@@ -513,9 +513,9 @@ html {
 }
 
 /* タグの色分け（カスタマイズ） */
-.tag-personal { background-color: #8891B3; } /* 青系 */
-.tag-client { background-color: #D8B4B0; }   /* ピンク系 */
-.tag-school { background-color: #C7B895; }   /* 緑系 */
+.tag-personal { background-color: #8891B3; }
+.tag-client { background-color: #D8B4B0; } 
+.tag-school { background-color: #C7B895; } 
 
 /* タグのメタ設定 */
 .tag-meta {
@@ -688,15 +688,14 @@ html {
     margin-bottom: 35px;
 }
 
-/* h3自体のFlex設定を維持しつつ調整 */
 .profile-text h3 {
     display: flex;
-    align-items: baseline; /* 文字の底辺を揃える */
-    justify-content: flex-start; /* PCでは左寄せ */
+    align-items: baseline;
+    justify-content: flex-start;
     font-weight: 500;
     margin-bottom: 20px;
     color: #848383;
-    gap: 15px; /* 余白を少し詰める */
+    gap: 15px; 
 }
 
 .profile-text p {
@@ -878,7 +877,7 @@ html {
 /* これからのこと */
 .future-vision-section {
     padding: 50px 20px 100px;
-    background-color: #E6E9EC; /* 背景を少し明るくして区切りを強調 */
+    background-color: #E6E9EC; 
 }
 
 .vision-wrapper {
@@ -1040,7 +1039,7 @@ html {
   }
   
 .product-item {
-        width: calc(33.333% - 16px); /* 3列の場合の幅計算（gap: 24pxを考慮） */
+        width: calc(33.333% - 16px);
 }
 
 /* 2列にする設定 */
@@ -1070,13 +1069,13 @@ html {
 }
   
 .work-insta-btn:hover {
-    background-color: #5b758b; /* 少し濃い色にしてクリック感を出す */
-    transform: translateY(-2px); /* ほんの少し上に浮かす */
+    background-color: #5b758b; 
+    transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
 .space-container {
-    height: 60px; /* 🔴 欲しい空白の高さ（サイズ）に変えてください */
+    height: 60px; 
     width: 100%;
 }
 
@@ -1307,7 +1306,7 @@ html {
     }
 
     .work-insta-btn {
-        width: 100%; /* スマホでは押しやすいように横幅いっぱいに広げる */
+        width: 100%;
         box-sizing: border-box;
         font-size: 15px;
         padding: 14px 20px;
@@ -1338,7 +1337,6 @@ html {
         margin-top: 5px;
     }
     
-    /* h3が横並びになっていたのを解除 */
     .profile-text h3 {
         display: block;
         text-align: center;
@@ -1384,11 +1382,11 @@ html {
         margin-bottom: 15px;
     }
     .name-kanji {
-        font-size: 32px;        /* 少しだけ調整してバランスを取る */
+        font-size: 32px;
     }
 
     .name-hiragana {
-        font-size: 18px;       /* 振り仮名サイズ */
+        font-size: 18px;
         margin-top: 5px;
     }
     
